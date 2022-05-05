@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color: #f0f0f0;
+    background-color: #141414;
     width: 100%;
     position: fixed;
     display: flex;
@@ -15,23 +15,34 @@ header{
     align-items: center;
     padding: 10px 100px ;
     z-index: 100;
+    border: 5px solid #000000;
+    border-top: #141414;
+    border-left: #141414;
+    border-right: #141414;
 }
 .logo{
     text-decoration: none;
-    color: #3a6cf4;
+    color: #f1f43a;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.logo:hover{
+    text-decoration: none;
+    color: #bcc209;
     text-transform: uppercase;
     font-weight: 1000;
     font-size: 30px;
 }
 .navigation a{
-    color: #3a6cf4;
+    color: #f1f43a;
     text-decoration: none;
     font-size: 20px;
     font-weight: 550;
     padding-left: 30px;
 }
 .navigation a:hover{
-    color: #4009c2;
+    color: #bcc209;
 }
 
 section{
@@ -50,86 +61,34 @@ section{
 .welcomecard {
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(240, 240, 240, .5);
+    background-color: #141414af;
 }
 .welcomecard h2{
-    color: black;
+    color: #ffffff;
     font-size: 1.4em;
     font-weight: 500;
 }
 .welcomecard h2 span{
     display: inline-block;
     margin-top: 10px;
-    color:#3a6cf4;
+    color:#f1f43a;
     font-size: 3em;
     font-weight: 600;
 }
 .welcomecard h3{
-    color: black;
+    color: #ffffff;
     font-size: 2em;
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 30px;
 }
-.title{
-    display: flex;
-    justify-content: center;
-    color: #3a6cf4;
-    font-size: 2.2em;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-.content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.card{
-    background-color: white;
-    width: 21.25em;
-    box-shadow: 0 5px 20px rgba(1, 1, 1, 20%);
-    border-radius: 10px;
-    padding: 25px;
-    margin: 15px;
-    transition: 0.8s ease;
-
-}
-.card:hover{
-    transform: scale(1.1);
-}
-.icon{
-    color: #3a6cf4;
-    font-size: 8em;
-    text-align: center;
-}
-
-.card-info{
-    text-align: center;
-    position: relative;
-}
-.card-info h3{
-    color: #0a49f6;
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 10px;
-}
-.project-img img{
-    width: 100%;
-
-}
-.project-info{
-    padding:1em;
-}
-.project-p{
-    font-size: 1.1em;
-    font-weight: 400;
-    color: #000;
-    text-align: center;
-}
 .footer{
-    background-color: black;
-    color: white;
+    border: 5px solid #000000;
+    border-bottom: #141414;
+    border-left: #141414;
+    border-right: #141414;
+    background-color: #141414;
+    color: #ffffff;
     padding: 1.5em;
     width: 100%;
     position: fixed;
@@ -137,7 +96,7 @@ section{
 }
 .footer a{
     display: inline-block;
-    color: #3a6cf4;
+    color: #f1f43a;
     text-decoration: none;
 }
 
@@ -153,7 +112,7 @@ section{
     background-position:center;
 }
 .form {
-    background-color: #f0f0f0;
+    background-color: #141414af;
     width: 500px;
     padding: 20px;
     border-radius: 10px;
@@ -166,10 +125,12 @@ section{
     text-align: center;
     font-weight: 800;
     padding-bottom: 20px;
+    color: #f1f43a;
 }
 .form p {
     float: left;
     padding: 5px;
+    color: #ffffff;
 }
 .textinput {
     padding: 5px;
@@ -209,22 +170,8 @@ section{
     float: right;
 }
 .btn{
-    background-color: #3a6cf4;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    position: relative;
-    bottom: 0;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-align: center;
-    text-decoration: none;
-}
-.btn{
-    background-color: #3a6cf4;
-    color: white;
+    background-color: #f1f43a;
+    color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -237,21 +184,22 @@ section{
     text-decoration: none;
 }
 .btn:hover {
-    background-color: #4009c2;
+    background-color: #bcc209;
 }
 .forgot a{
     padding: 5px;
     text-decoration: none;
-    color: #3a6cf4;
+    color: #f1f43a;
 }
 .forgot a:hover{
-    color: #4009c2;
+    color: #bcc209;
 }
 .rememberme {
     float: left;
     position: relative;
     bottom: 0;
     padding: 5px;
+    color: #ffffff;
 }
 .fieldcheck {
     padding-top: 10px;
@@ -259,48 +207,53 @@ section{
 .prompt {
     padding-top: 10px;
     padding-left: 5px;
+    color: #ffffff;
 }
 .prompt a{
     text-decoration: none;
-    color: #3a6cf4;
+    color: #f1f43a;
 }
 .prompt a:hover{
-    color: #4009c2;
+    color: #bcc209;
 }
 
 .team{
-    background-color: #f0f0f0;
+    background-color: #141414;
     border-radius: 10px;
     padding: 20px;
     width: fit-content;
 }
+.team h1{
+    color: #f1f43a;
+}
 .teamname {
+    color: #ffffff;
     font-size: 20px;
     margin-left: 20px;
     float: left;
 }
 .teamid {
+    color: #ffffff;
     font-size: 20px;
     margin-right: 20px;
     float: right;
 }
 
 .about{
-    color:#3a6cf4 ;
+    color:#ffffff ;
     text-align: center;
     font-size: 2em;
     font-weight: 600;
-    background-color: white;
+    background-color: #141414;
 }
 .choice{
     display: flex;
     flex-wrap: wrap;;
-    background-color:#000016 ;
+    background-color:#121600 ;
     justify-content: center;
     flex-direction: row;
 }
 .choice img{
-    border: solid 2px white;
     border-radius: 20%;
     width: 170px;
     height: 210px;
@@ -326,16 +279,29 @@ section{
     text-align: center;
 }
 
+.abouthim{
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+}
+.abouthim h2{
+    color:#ffffff ;
+    font-size: 2em;
+    font-weight: 600;
+}
+.abouthim p{
+    color:#ffffff ;
+}
 .hiswork{
-    background-color: #f0f0f0;
+    background-color: #141414;
 }
 .hiswork h2{
     text-align: center;
-    color: #3a6cf4;
+    align-items: center;
+    color: #141414;
 }
 .actor-work {
-    background-color: white;
-    border: 1px solid white;
+    background-color: #000000;
     height: 30em;
     overflow: visible;
     border-radius: 10px;
@@ -355,26 +321,18 @@ section{
     float: left;
 }
 .info h1{
-    color: #3a6cf4;
+    color: #f1f43a;
     display: inline-block;
     font-size: 2em;
+    font-weight: 800;
     padding-left: 100px;
     padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
 }
-.info h2{
-    color: #000;
-    display: inline-block;
-    font-size: 2em;
-    padding-left: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: 800;
-}
 .info span{
-    color: #000;
+    color: rgb(255, 255, 255);
     display: inline-block;
     font-size: 1.5em;
     padding-left: 20px;
@@ -383,7 +341,7 @@ section{
     font-weight: 800;
 }
 .info p{
-    color: #000;
+    color: rgb(255, 255, 255);
     display: inline-block;
     font-size: 1.5em;
     padding-left: 20px;
@@ -391,8 +349,8 @@ section{
     flex-wrap: wrap;
 }
 .info a{
-    color: white;
-    background-color: #3a6cf4;
+    background-color: #f1f43a;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 650;
@@ -407,7 +365,7 @@ section{
     margin-left: 55px;
 }
 .info a:hover{
-    background-color: #0a49f6;
+    background-color: #bcc209;
     transform: scale(1.1);
 }
 .trailer {
@@ -416,9 +374,9 @@ section{
     float: right;
 }
 .trailer h2 {
-    color: #000;
+    color: #f1f43a;
     font-size: 2em;
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
     padding-top: 10px;
 }
@@ -431,7 +389,7 @@ section{
 }
 
 .singer-work{
-    background-color: black;
+    background-color: #141414;
     overflow: visible;
     border-radius: 10px;
     margin: 20px;
@@ -449,15 +407,25 @@ section{
 }
 
 .athlete-work{
-    background-color: black;
+    background-color: #000000;
     overflow: visible;
+    width: fit-content;
     border-radius: 10px;
     margin: 20px;
     padding: 10px;
 }
+.athlete-header h2{
+    padding: 10px;
+    color: #ffffff;
+}
+#footnote{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
 .footnote{
     display: inline-block;
-    color: #3a6cf4;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -470,17 +438,17 @@ section{
     text-align: center;
 }
 .tg td{
-    border-color:black;
+    border-color:#000000;
     border-style:solid;
     border-width:1px;
     font-family:Arial, sans-serif;
     font-size:14px;
     overflow:hidden;
-    padding:10px 12px
-    ;word-break:normal;
+    padding:10px 12px;
+    word-break:normal;
 }
 .tg th{
-    border-color:black;
+    border-color:#000000;
     border-style:solid;
     border-width:1px;
     font-family:Arial, sans-serif;
@@ -490,37 +458,19 @@ section{
     padding:10px 12px;
     word-break:normal;
 }
-.tg .tg-baqh{
-    text-align:center;
-    vertical-align:top
-}
-.tg .tg-wa1i{
-    font-weight:bold;
-    text-align:center;
-    vertical-align:middle
-}
-.tg .tg-c3ow{
-    border-color:inherit;
-    text-align:center;
-    vertical-align:top
-}
-.tg .tg-amwm{
-    font-weight:bold;
-    text-align:center;
-    vertical-align:top
-}
-.tg .tg-7btt{
-    border-color:inherit;
-    font-weight:bold;
-    text-align:center;
-    vertical-align:top
-}
 
 .thumbcard {
-    background-color: #f0f0f0;
+    background-color: #141414;
+    color: #ffffff;
     padding: 10px;
     border-radius: 10px;
     border-style: solid;
+}
+.thumbcard h2{
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
     /* Celeb Thumbnails*/
@@ -533,13 +483,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.willsmith h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .bradpitt{
     width: 100%;
@@ -550,13 +494,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.bradpitt h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .tomcruise{
     width: 100%;
@@ -567,13 +505,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.tomcruise h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .angelinajolie{
     width: 100%;
@@ -584,13 +516,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.angelinajolie h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .emmawatson{
     width: 100%;
@@ -601,13 +527,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.emmawatson h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .scarlettjohansson{
     width: 100%;
@@ -618,13 +538,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.scarlettjohansson h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .theweeknd{
     width: 100%;
@@ -635,13 +549,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.theweeknd h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .nf{
     width: 100%;
@@ -652,13 +560,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.nf h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .dualipa{
     width: 100%;
@@ -669,13 +571,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.dualipa h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .kanye{
     width: 100%;
@@ -686,13 +582,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.kanye h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .billieeilish{
     width: 100%;
@@ -703,12 +593,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.billieeilish h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
+    color: #141414;
 }
 .adele{
     width: 100%;
@@ -719,13 +604,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
-}
-.adele h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+    color: #141414;
 }
 .salah{
     width: 100%;
@@ -736,11 +615,69 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    color: #3a6cf4;
+    color: #141414;
 }
-.salah h2{
-    font-size: 2em;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #3a6cf4;
+.cr7{
+    width: 100%;
+    min-height: 40em;
+    display: flex;
+    align-items: center;
+    background: url("images/athletes/football/CR7/thumbnail.webp") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    color: #141414;
+}
+.leomessi{
+    width: 100%;
+    min-height: 40em;
+    display: flex;
+    align-items: center;
+    background: url("images/athletes/football/leomessi/thumbnail.webp") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    color: #141414;
+}
+.mj{
+    width: 100%;
+    min-height: 40em;
+    display: flex;
+    align-items: center;
+    background: url("images/athletes/basketball/mj/thumbnail.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    color: #141414;
+}
+.lebron{
+    width: 100%;
+    min-height: 40em;
+    display: flex;
+    align-items: center;
+    background: url("images/athletes/basketball/lebron/thumbnail.webp") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    color: #141414;
+}
+.bolt{
+    width: 100%;
+    min-height: 40em;
+    display: flex;
+    align-items: center;
+    background: url("images/athletes/olympics/bolt/thumbnail.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    color: #141414;
+}
+.boltthumbcard {
+    background-color: #141414;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    position: relative;
+    left: 80%;
 }
