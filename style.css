@@ -228,9 +228,10 @@ section{
     float: left;
 }
 .teamid {
-    color: #ffffff;
-    font-size: 20px;
-    margin-right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 5px;
     float: right;
 }
 
