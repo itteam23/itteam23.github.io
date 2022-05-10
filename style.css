@@ -28,11 +28,7 @@ header{
     font-size: 30px;
 }
 .logo:hover{
-    text-decoration: none;
     color: #bcc209;
-    text-transform: uppercase;
-    font-weight: 1000;
-    font-size: 30px;
 }
 .navigation a{
     color: #f1f43a;
@@ -103,7 +99,6 @@ section{
 .container {
     padding-top: 10%;
     padding-left: 100px;
-    background-image: url(images/homepage/thumbnail.jpg);
     width: 100%;
     min-height: 100vh;
     background: url("images/homepage/thumbnail.jpg") no-repeat;
